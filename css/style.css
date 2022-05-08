@@ -197,6 +197,7 @@ header{
 }
 
 .box:hover {
+    background: orangered;
     cursor: pointer;
 }
 
@@ -325,6 +326,8 @@ header{
     width: 70%;
 }
 
+/* tablet view */
+
 @media only screen and (max-device-width: 768px) {
     .nav-end > li {
         font-size: 0.7rem;
@@ -334,6 +337,8 @@ header{
         font-size: 1.2rem;
     }
 }
+
+/* mobile view */
 
 @media only screen and (max-device-width: 425px) {
     body {
